@@ -20,7 +20,7 @@ struct LectureTitle {
     string course;
     string week;
 
-    LectureTitle (Specialization inputSpecialization, Course inputCourse, Week inputWeek) {
+    LectureTitle (const Specialization& inputSpecialization, const Course& inputCourse, const Week& inputWeek) {
         specialization = inputSpecialization.specialization;
         course = inputCourse.course;
         week = inputWeek.week;
